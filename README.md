@@ -12,3 +12,6 @@
 - [ ] 添加附录章节，补全零碎但相关知识点。
 - [ ] 设计扉页和尾页彩图。
 - [ ] 添加前言，后记（结束语），参考文献部分
+
+## LICENSE
+[署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)
