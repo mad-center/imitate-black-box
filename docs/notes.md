@@ -44,7 +44,7 @@ https://support.typora.io/Auto-Numbering/
 
 测试 gif：预览无效
 
-<img src="assets/10-final.gif" alt="image-20210523155619316" title="题注"  />
+<img src="assets/figure-10-33.gif" alt="image-20210523155619316" title="题注"  />
 
 导出pdf时强制分页
 
