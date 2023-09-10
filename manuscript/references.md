@@ -3,8 +3,9 @@
 ## 原作
 - [静止系]原创作品 black_box | https://www.bilibili.com/video/BV1yx411c7Ce
 
-## 工程文件分享
+## 工程分享/教程
 -  光与对立 -Black box- | https://www.bilibili.com/video/BV1Ez411z7Df
+-  【AE教程】月谷的黑盒仿制笔记 | https://www.bilibili.com/read/cv5836285
 - 【静止系/60FPS】仿黑盒/balck box | https://www.bilibili.com/video/BV137411P7YM
 
 ## AE使用技巧
