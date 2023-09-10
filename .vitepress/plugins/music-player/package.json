@@ -1,0 +1,45 @@
+{
+  "name": "vitepress-plugin-awesome-musicplayer",
+  "version": "1.0.4",
+  "description": "a music player by vitepress",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "keywords": [
+    "vitepress",
+    "music",
+    "player"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daodaolee/vitepress-plugin-awesome-musicplayer"
+  },
+  "author": "daodaolee",
+  "license": "ISC",
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search"
+      ]
+    }
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.31.0",
+    "eslint": "^8.28.0"
+  },
+  "dependencies": {
+    "axios": "^1.2.0",
+    "@better-scroll/core": "^2.0.0-alpha.20",
+    "@better-scroll/mouse-wheel": "^2.0.0-alpha.20",
+    "@better-scroll/scroll-bar": "^2.0.0-alpha.20",
+    "@types/node": "^18.11.9",
+    "better-scroll": "^1.15.2",
+    "sass": "^1.56.1",
+    "typescript": "^4.9.3",
+    "vitepress": "1.0.0-alpha.29",
+    "vue": "^3.2.45"
+  }
+}

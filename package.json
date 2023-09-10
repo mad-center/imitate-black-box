@@ -1,0 +1,51 @@
+{
+  "name": "imitate-black-box",
+  "version": "1.0.0",
+  "description": "An tutorial for imitating black box mad.",
+  "type": "module",
+  "packageManager": "pnpm@8.7.1",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
+    "update": "npm-run-all -p update:*",
+    "update:sidebar": "tsx ./scripts/sidebar/index.ts",
+    "update:reading-time": "tsx ./scripts/reading-time/index.ts",
+    "build": "npm run update && npm run docs:build",
+    "test:fetchBook": "tsx ./scripts/common/fetchBook.spec.ts"
+  },
+  "keywords": [
+    "acgn",
+    "imitate",
+    "black box",
+    "mad"
+  ],
+  "author": "wdpm",
+  "license": "ISC",
+  "devDependencies": {
+    "@better-scroll/core": "^2.0.0-alpha.20",
+    "@better-scroll/mouse-wheel": "^2.0.0-alpha.20",
+    "@better-scroll/scroll-bar": "^2.0.0-alpha.20",
+    "@types/fs-extra": "^9.0.13",
+    "@types/markdown-it": "^12.2.3",
+    "@types/node": "^18.11.9",
+    "axios": "^1.2.0",
+    "better-scroll": "^1.15.2",
+    "fs-extra": "^10.1.0",
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^13.0.1",
+    "npm-run-all": "^4.1.5",
+    "reading-time": "^1.5.0",
+    "sass": "^1.66.1",
+    "tsx": "^3.11.0",
+    "typescript": "^4.8.4",
+    "vite": "^4.4.9",
+    "vitepress": "1.0.0-rc.10",
+    "vitepress-plugin-comment-with-giscus": "^1.1.7",
+    "clipboard": "^2.0.6",
+    "viewerjs": "^1.11.3"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  }
+}

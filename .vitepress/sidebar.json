@@ -1,0 +1,118 @@
+[
+  {
+    "text": "frontmatter",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "前言",
+        "link": "/frontmatter/00-preface.md"
+      }
+    ]
+  },
+  {
+    "text": "mainmatter",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "01 网格开场",
+        "link": "/mainmatter/01.md"
+      },
+      {
+        "text": "02 大风车",
+        "link": "/mainmatter/02.md"
+      },
+      {
+        "text": "03 棋盘场景",
+        "link": "/mainmatter/03.md"
+      },
+      {
+        "text": "04 黑盒的一个面",
+        "link": "/mainmatter/04.md"
+      },
+      {
+        "text": "05 黑盒的形成与时钟刻度",
+        "link": "/mainmatter/05.md"
+      },
+      {
+        "text": "06 摇晃的箭头",
+        "link": "/mainmatter/06.md"
+      },
+      {
+        "text": "07 棋盘背景与遮罩旋转",
+        "link": "/mainmatter/07.md"
+      },
+      {
+        "text": "08 隧道",
+        "link": "/mainmatter/08.md"
+      },
+      {
+        "text": "09 隧道穿梭与沿途风景",
+        "link": "/mainmatter/09.md"
+      },
+      {
+        "text": "10 天台球",
+        "link": "/mainmatter/10.md"
+      },
+      {
+        "text": "11 箭头穿梭",
+        "link": "/mainmatter/11.md"
+      },
+      {
+        "text": "12 旋转的图片遮罩",
+        "link": "/mainmatter/12.md"
+      },
+      {
+        "text": "13 旋转的黑环",
+        "link": "/mainmatter/13.md"
+      },
+      {
+        "text": "14 相片组展示",
+        "link": "/mainmatter/14.md"
+      },
+      {
+        "text": "15 代码空间",
+        "link": "/mainmatter/15.md"
+      },
+      {
+        "text": "16 死亡天梯",
+        "link": "/mainmatter/16.md"
+      },
+      {
+        "text": "17 螺旋花",
+        "link": "/mainmatter/17.md"
+      },
+      {
+        "text": "18 Thanks for watching",
+        "link": "/mainmatter/18.md"
+      },
+      {
+        "text": "19 署名LOGO",
+        "link": "/mainmatter/19.md"
+      },
+      {
+        "text": "最后",
+        "link": "/mainmatter/20.md"
+      }
+    ]
+  },
+  {
+    "text": "epilogue",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "后记",
+        "link": "/epilogue/epilogue.md"
+      }
+    ]
+  },
+  {
+    "text": "reference",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "参考文献",
+        "link": "/reference/references.md"
+      }
+    ]
+  }
+]

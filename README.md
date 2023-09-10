@@ -23,7 +23,7 @@
   > AE基本知识点转移到另外的教程系列
 - [ ] 设计扉页和尾页图。
 - [ ] 附录：补充分镜表
-- [ ] 补充README 阅读方式指南（在线Octree，本地Typora）
+- [ ] 补充README 阅读方式指南（在线vitepress，本地Typora）
 
 ## LICENSE
 

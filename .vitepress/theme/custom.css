@@ -1,0 +1,15 @@
+/* .vitepress/theme/custom.css */
+:root {
+    --vp-c-brand-1: #d94d4d;
+    --vp-c-brand-2: #283ecd;
+}
+
+.is-home .tagline > a {
+    text-decoration: underline;
+}
+
+/* font */
+:root {
+    --vp-font-family-base: "LXGW WenKai Screen", sans-serif; /* normal text font */
+    --vp-font-family-mono: "Consolas"; /* code font */
+}
