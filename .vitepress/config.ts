@@ -1,6 +1,7 @@
 import {defineConfig} from 'vitepress'
 
 import sidebar from './sidebar.json'
+
 const DOC_ROOT_DIR = "manuscript"
 const GITHUB_REPO = `https://github.com/mad-center/imitate-black-box`;
 
@@ -26,11 +27,15 @@ export default defineConfig({
     search: {
       provider: 'local'
     },
+    // deep to level 3 title
+    outline: [2, 3],
+    // show `return to top` button in menu on small screen
+    returnToTopLabel: "Return to top",
     editLink: {
       pattern: `${GITHUB_REPO}/edit/main/${DOC_ROOT_DIR}/:path`
     },
     socialLinks: [
-      {icon: 'github', link: GITHUB_REPO }
+      {icon: 'github', link: GITHUB_REPO}
     ],
   },
   transformPageData(pageData) {
@@ -55,7 +60,7 @@ export default defineConfig({
     // add custom web font
     // <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css"/>
     pageData.frontmatter.head.push([
-      'link',{
+      'link', {
         rel: "stylesheet",
         href: "https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css"
       }

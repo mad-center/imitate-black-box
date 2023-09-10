@@ -70,6 +70,9 @@ devDependencies:
   vitepress:
     specifier: 1.0.0-rc.10
     version: registry.npmmirror.com/vitepress@1.0.0-rc.10(@algolia/client-search@4.19.1)(@types/node@18.17.15)(axios@1.5.0)(sass@1.66.1)(search-insights@2.8.2)
+  vitepress-plugin-back-to-top:
+    specifier: ^1.0.1
+    version: registry.npmmirror.com/vitepress-plugin-back-to-top@1.0.1
   vitepress-plugin-comment-with-giscus:
     specifier: ^1.1.7
     version: registry.npmmirror.com/vitepress-plugin-comment-with-giscus@1.1.7(vue@3.3.4)
@@ -2554,6 +2557,14 @@ packages:
       sass: registry.npmmirror.com/sass@1.66.1
     optionalDependencies:
       fsevents: registry.npmmirror.com/fsevents@2.3.3
+    dev: true
+
+  registry.npmmirror.com/vitepress-plugin-back-to-top@1.0.1:
+    resolution: {integrity: sha512-fQUzhkV6SGEmYcO56fv6Jbz5ifseAZuoi+lPDGg0c8gpMVHgqs/D1GbfX4tbvUAtuFNv4kz88wuQRK024iZ2sQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vitepress-plugin-back-to-top/-/vitepress-plugin-back-to-top-1.0.1.tgz}
+    name: vitepress-plugin-back-to-top
+    version: 1.0.1
+    dependencies:
+      vue: registry.npmmirror.com/vue@3.3.4
     dev: true
 
   registry.npmmirror.com/vitepress-plugin-comment-with-giscus@1.1.7(vue@3.3.4):

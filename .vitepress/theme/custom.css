@@ -4,6 +4,12 @@
     --vp-c-brand-2: #283ecd;
 }
 
+/*<editor-fold desc="widen main content area">*/
+.VPDoc.has-aside .content .content-container {
+    max-width: 900px;
+}
+/*</editor-fold>*/
+
 .is-home .tagline > a {
     text-decoration: underline;
 }

@@ -20,6 +20,10 @@ import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 // @ts-ignore
 import MusicPlayer from '../plugins/music-player'
 
+// back to top
+import vitepressBackToTop from 'vitepress-plugin-back-to-top'
+import 'vitepress-plugin-back-to-top/dist/style.css'
+
 function setupImageViewer() {
   const route = useRoute();
   imageViewer(route, ".vp-doc img", {
@@ -47,6 +51,13 @@ function setupGiscus() {
   });
 }
 
+function setupBackToTop() {
+  vitepressBackToTop({
+    // default
+    threshold: 200
+  })
+}
+
 export default {
   ...DefaultTheme,
   enhanceApp(ctx: EnhanceAppContext) {
@@ -54,6 +65,7 @@ export default {
     // Register global components, if you don't want to use it, you don't need to add it
     // ctx.app.component('vImageViewer', vImageViewer);
     ctx.app.component('MusicPlayer', MusicPlayer);
+    setupBackToTop();
   },
   setup() {
     setupImageViewer();
